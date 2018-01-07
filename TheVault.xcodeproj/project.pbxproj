@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C1A28361FDC96A500787C57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A28351FDC96A500787C57 /* AppDelegate.swift */; };
+		3C1A283B1FDC96A500787C57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A28391FDC96A500787C57 /* Main.storyboard */; };
+		3C1A283E1FDC96A500787C57 /* TheVault.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A283C1FDC96A500787C57 /* TheVault.xcdatamodeld */; };
+		3C1A28401FDC96A500787C57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A283F1FDC96A500787C57 /* Assets.xcassets */; };
+		3C1A28431FDC96A500787C57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1A28411FDC96A500787C57 /* LaunchScreen.storyboard */; };
+		3C1A284B1FDC974500787C57 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A284A1FDC974500787C57 /* Password.swift */; };
+		3C1A28551FDC984500787C57 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1A28541FDC984500787C57 /* CloudKit.framework */; };
+		3C1A28571FDC9A9D00787C57 /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A28561FDC9A9D00787C57 /* PasswordController.swift */; };
+		3C1A28591FDCA17D00787C57 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A28581FDCA17D00787C57 /* CreateViewController.swift */; };
+		3C1A285B1FDCA89700787C57 /* PasswordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A285A1FDCA89700787C57 /* PasswordsTableViewController.swift */; };
+		3C1A285D1FDCD98200787C57 /* PasswordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1A285C1FDCD98200787C57 /* PasswordDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C1A28321FDC96A500787C57 /* TheVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1A28351FDC96A500787C57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C1A283A1FDC96A500787C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C1A283D1FDC96A500787C57 /* TheVault.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheVault.xcdatamodel; sourceTree = "<group>"; };
+		3C1A283F1FDC96A500787C57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C1A28421FDC96A500787C57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C1A28441FDC96A500787C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1A284A1FDC974500787C57 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		3C1A28521FDC983F00787C57 /* TheVault.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheVault.entitlements; sourceTree = "<group>"; };
+		3C1A28541FDC984500787C57 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		3C1A28561FDC9A9D00787C57 /* PasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
+		3C1A28581FDCA17D00787C57 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		3C1A285A1FDCA89700787C57 /* PasswordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsTableViewController.swift; sourceTree = "<group>"; };
+		3C1A285C1FDCD98200787C57 /* PasswordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C1A282F1FDC96A500787C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1A28551FDC984500787C57 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1A28291FDC96A500787C57 = {
+			isa = PBXGroup;
+			children = (
+				3C1A28341FDC96A500787C57 /* TheVault */,
+				3C1A28331FDC96A500787C57 /* Products */,
+				3C1A28531FDC984500787C57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C1A28331FDC96A500787C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A28321FDC96A500787C57 /* TheVault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C1A28341FDC96A500787C57 /* TheVault */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A28521FDC983F00787C57 /* TheVault.entitlements */,
+				3C1A28511FDC976E00787C57 /* Storyboards */,
+				3C1A28501FDC976300787C57 /* Resources */,
+				3C1A284F1FDC975C00787C57 /* View Controllers */,
+				3C1A284E1FDC975600787C57 /* Views */,
+				3C1A284D1FDC975000787C57 /* Model Controllers */,
+				3C1A284C1FDC974A00787C57 /* Models */,
+				3C1A28441FDC96A500787C57 /* Info.plist */,
+				3C1A283C1FDC96A500787C57 /* TheVault.xcdatamodeld */,
+			);
+			path = TheVault;
+			sourceTree = "<group>";
+		};
+		3C1A284C1FDC974A00787C57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A284A1FDC974500787C57 /* Password.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C1A284D1FDC975000787C57 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A28561FDC9A9D00787C57 /* PasswordController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		3C1A284E1FDC975600787C57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C1A284F1FDC975C00787C57 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A28581FDCA17D00787C57 /* CreateViewController.swift */,
+				3C1A285A1FDCA89700787C57 /* PasswordsTableViewController.swift */,
+				3C1A285C1FDCD98200787C57 /* PasswordDetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3C1A28501FDC976300787C57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A28351FDC96A500787C57 /* AppDelegate.swift */,
+				3C1A283F1FDC96A500787C57 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C1A28511FDC976E00787C57 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A28411FDC96A500787C57 /* LaunchScreen.storyboard */,
+				3C1A28391FDC96A500787C57 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3C1A28531FDC984500787C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C1A28541FDC984500787C57 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C1A28311FDC96A500787C57 /* TheVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1A28471FDC96A500787C57 /* Build configuration list for PBXNativeTarget "TheVault" */;
+			buildPhases = (
+				3C1A282E1FDC96A500787C57 /* Sources */,
+				3C1A282F1FDC96A500787C57 /* Frameworks */,
+				3C1A28301FDC96A500787C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheVault;
+			productName = TheVault;
+			productReference = 3C1A28321FDC96A500787C57 /* TheVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C1A282A1FDC96A500787C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Michael Budd";
+				TargetAttributes = {
+					3C1A28311FDC96A500787C57 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3C1A282D1FDC96A500787C57 /* Build configuration list for PBXProject "TheVault" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C1A28291FDC96A500787C57;
+			productRefGroup = 3C1A28331FDC96A500787C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C1A28311FDC96A500787C57 /* TheVault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C1A28301FDC96A500787C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1A28431FDC96A500787C57 /* LaunchScreen.storyboard in Resources */,
+				3C1A28401FDC96A500787C57 /* Assets.xcassets in Resources */,
+				3C1A283B1FDC96A500787C57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1A282E1FDC96A500787C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1A285B1FDCA89700787C57 /* PasswordsTableViewController.swift in Sources */,
+				3C1A28591FDCA17D00787C57 /* CreateViewController.swift in Sources */,
+				3C1A284B1FDC974500787C57 /* Password.swift in Sources */,
+				3C1A283E1FDC96A500787C57 /* TheVault.xcdatamodeld in Sources */,
+				3C1A28571FDC9A9D00787C57 /* PasswordController.swift in Sources */,
+				3C1A28361FDC96A500787C57 /* AppDelegate.swift in Sources */,
+				3C1A285D1FDCD98200787C57 /* PasswordDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C1A28391FDC96A500787C57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1A283A1FDC96A500787C57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C1A28411FDC96A500787C57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1A28421FDC96A500787C57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C1A28451FDC96A500787C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C1A28461FDC96A500787C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C1A28481FDC96A500787C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_ENTITLEMENTS = TheVault/TheVault.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5JSCXFFAA;
+				INFOPLIST_FILE = TheVault/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelBudd.TheVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C1A28491FDC96A500787C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_ENTITLEMENTS = TheVault/TheVault.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5JSCXFFAA;
+				INFOPLIST_FILE = TheVault/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelBudd.TheVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C1A282D1FDC96A500787C57 /* Build configuration list for PBXProject "TheVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1A28451FDC96A500787C57 /* Debug */,
+				3C1A28461FDC96A500787C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1A28471FDC96A500787C57 /* Build configuration list for PBXNativeTarget "TheVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1A28481FDC96A500787C57 /* Debug */,
+				3C1A28491FDC96A500787C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C1A283C1FDC96A500787C57 /* TheVault.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C1A283D1FDC96A500787C57 /* TheVault.xcdatamodel */,
+			);
+			currentVersion = 3C1A283D1FDC96A500787C57 /* TheVault.xcdatamodel */;
+			path = TheVault.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C1A282A1FDC96A500787C57 /* Project object */;
+}
